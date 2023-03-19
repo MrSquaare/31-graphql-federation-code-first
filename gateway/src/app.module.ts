@@ -14,6 +14,7 @@ import { AppService } from './app.service';
           subgraphs: [
             { name: 'users', url: 'http://localhost:3000/graphql' },
             { name: 'posts', url: 'http://localhost:3001/graphql' },
+            { name: 'somethings', url: 'http://localhost:3003/graphql' },
           ],
         }),
       },

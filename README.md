@@ -21,6 +21,10 @@ npm -w posts-application run start
 ```
 
 ```sh
+npm -w somethings-application run start
+```
+
+```sh
 npm -w gateway run start
 ```
 

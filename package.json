@@ -5,6 +5,7 @@
   "workspaces": [
     "gateway",
     "posts-application",
+    "somethings-application",
     "users-application",
     "types"
   ],
