@@ -1,0 +1,21 @@
+{
+  "name": "@abcdef/types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^4.4.0",
+    "typescript": "4.9.5"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.3.10",
+    "@nestjs/graphql": "^11.0.0"
+  }
+}

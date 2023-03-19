@@ -1,0 +1,16 @@
+{
+  "name": "31-graphql-federation-code-first",
+  "version": "1.0.0",
+  "description": "A simple example of GraphQL Federation using Code First approach.",
+  "workspaces": [
+    "gateway",
+    "posts-application",
+    "users-application",
+    "types"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
